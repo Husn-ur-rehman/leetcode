@@ -40,7 +40,7 @@ public:
         return res;
         
     }    
-        // Linear walk without making space for merged So T = O(m+n), and S = O(1);
+    // Linear walk without making space for merged So T = O(m+n), and S = O(1);
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {    
         int ind1 = 0, ind2 = 0, size1 = nums1.size(), size2 = nums2.size();
         int totalSize = size1 + size2;
@@ -65,6 +65,10 @@ public:
         } else {
             return curr;
         }
+    }
+    //Binary search Implementation 0(log(m+n)) complexity;
+    double FindMedianSortedArrays3(vector<int>& nums1, vector<int> & nums2){
+        
     }
 };
 
