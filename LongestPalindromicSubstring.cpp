@@ -53,6 +53,43 @@ public:
        
     }
 
+    //Dynamic Programming O(n^2) && O(n^2);
+    string DynamicProgrammingApproach(string s){
+        int size = s.length(), maxlen = 1, start = 0;;
+        vector<vector<bool>> table(size, vector<bool>(size,false));
+
+        // for size 1;
+        for(int i = 0; i < size ; i++){
+            table[i][i] = true;
+        }
+        // for size 2;
+        for(int i = 0; i < size -1;i++){
+            table[i][i+1] = (s[i] == s[i+1]);
+            if(table[i][i+1]){
+                if(maxlen < 2){
+                    maxlen = 2;
+                    start = i;
+                }
+            }
+        }
+        //For general Case: size >= 3;
+        for(int len = 3; len <= size; len++) {
+            for(int i = 0; i <= size - len; i++){
+                int j = i + len - 1;
+                if(s[i] == s[j] && table[i+1][j-1] == true){
+                    table[i][j] = true;
+                    if(maxlen < j - i +1){
+                        maxlen = j - i + 1;
+                        start = i;
+                    }
+                } 
+            }
+
+        }
+        return s.substr(start,maxlen);
+
+
+    }
 };
 
 int main(){
@@ -60,7 +97,7 @@ int main(){
     Solution obj;
 
     for(int i = 0 ; i < arr.size(); i++){
-        cout<<obj.AroundCenterApproach(arr[i])<<endl;
+        cout<<obj.DynamicProgrammingApproach(arr[i])<<endl;
     }
     
 }
