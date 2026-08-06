@@ -21,6 +21,10 @@ C++ solutions to LeetCode problems.
 | Find Closest Person | [Find_closest_person.cpp](./Find_closest_person.cpp) |
 | Convert Integer to the Sum of Two No-Zero Integers | [Convert_Integer_to_the_Sum_of_Two_No_Zero_Integers.cpp](./Convert_Integer_to_the_Sum_of_Two_No_Zero_Integers.cpp) |
 | Find N Unique Integers That Sum Up to Zero | [find_N_Unique_Integers_Sum_up_to_zero.cpp](./find_N_Unique_Integers_Sum_up_to_zero.cpp) |
+|Reverse Integer | [ReverseInteger.cpp](./ReverseInteger.cpp)|
+|StringToInteger | [StringtoInteger.cpp](./StringToInteger.cpp)|
+|ContainerWithMostWater| [ContainerWithMostWater.cpp](./ContainerWithMostWater.cpp)|
+|IntegerToRoman | [IntegerToRoman.cpp](./IntegerToRoman.cpp)|
 
 ## Build & Run
 
