@@ -22,9 +22,11 @@ C++ solutions to LeetCode problems.
 | Convert Integer to the Sum of Two No-Zero Integers | [Convert_Integer_to_the_Sum_of_Two_No_Zero_Integers.cpp](./Convert_Integer_to_the_Sum_of_Two_No_Zero_Integers.cpp) |
 | Find N Unique Integers That Sum Up to Zero | [find_N_Unique_Integers_Sum_up_to_zero.cpp](./find_N_Unique_Integers_Sum_up_to_zero.cpp) |
 |Reverse Integer | [ReverseInteger.cpp](./ReverseInteger.cpp)|
-|StringToInteger | [StringtoInteger.cpp](./StringToInteger.cpp)|
-|ContainerWithMostWater| [ContainerWithMostWater.cpp](./ContainerWithMostWater.cpp)|
-|IntegerToRoman | [IntegerToRoman.cpp](./IntegerToRoman.cpp)|
+|String To Integer | [StringtoInteger.cpp](./StringToInteger.cpp)|
+|Container With Most Water| [ContainerWithMostWater.cpp](./ContainerWithMostWater.cpp)|
+|Integer To Roman | [IntegerToRoman.cpp](./IntegerToRoman.cpp)|
+|ThreeSum | [3Sum.cpp](./3Sum.cpp)|
+|Three Sum Closest | [3SumClosest](./3SumClosest.cpp|)
 
 ## Build & Run
 
